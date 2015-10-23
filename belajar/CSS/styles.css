@@ -11,3 +11,18 @@ p {
 	text-transform: capitalize;
 	font-family: 'Handlee', cursive;
 }
+
+/** styling links **/
+a:visited {
+	color:red;
+}
+a:hover {
+	background-color:violet;
+}
+a:active {
+	background-color: green;
+}
+ul li {
+	display:inline;
+	text-decoration: none;
+}
