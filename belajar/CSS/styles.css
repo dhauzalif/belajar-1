@@ -1,0 +1,13 @@
+body {
+	background-color:#588DDA;
+	background-repeat: no-repeat;
+}
+h1 {
+	color:rgba(0,0,0,0.7);
+}
+
+p {
+	text-indent: 20px;
+	text-transform: capitalize;
+	font-family: 'Handlee', cursive;
+}
