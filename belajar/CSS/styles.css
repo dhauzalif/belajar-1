@@ -1,7 +1,11 @@
-body {
-	background-color:#588DDA;
-	background-repeat: no-repeat;
+.container {
+	width:950px auto;
+	height:auto;
+	margin:auto;
+	text-align: center;
+	background-color:#ff3;
 }
+
 h1 {
 	color:rgba(0,0,0,0.7);
 }
@@ -44,3 +48,44 @@ img {
 	height:200px;
 	float:left;
 }
+
+.css3 {
+	clear:both;
+}
+.css3 img {
+	width:200px;
+	height:200px;
+	transition: width 2s, height 2s, transform 2s;
+	margin:20px;
+}
+
+.css3 img:hover {
+	width:200px;
+	height:200px;
+	transform: rotate(180deg);
+}
+
+.css3 h2 {
+
+	animation: color 3s;
+	-webkit-animation: color 3s;
+}
+
+@keyframes color {
+	0% {background-color:red;}
+	20% {background-color: blue;}
+	50% {background-color:green;}
+	75% {background-color:violet;}
+	100% {background-color: black}
+
+}
+
+@-webkit-keyframes color {
+	0% {background-color:red;}
+	20% {background-color: blue;}
+	50% {background-color:green;}
+	75% {background-color:violet;}
+	100% {background-color: black}
+
+}
+
